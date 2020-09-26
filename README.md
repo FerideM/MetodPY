@@ -23,6 +23,29 @@ name = "Sam"
 # float
 book_price = 15.80
 ```
+- Математичексие операции
+```
+a+b
+a*b
+a/b
+a%b #mod(a,b)
+a**2 #pow(a,2)
+
+```
+- Импортирование библиотек и функций
+```
+import math
+ptint(math.pi) #3.141592653589793
+
+from math import pi
+ptint(pi) #3.141592653589793
+
+import math as m
+ptint(m.pi) #3.141592653589793
+
+from math import pi as PI
+ptint(PI) #3.141592653589793
+```
 - Условия
 ```
 if 1 > 2:
